@@ -1,0 +1,14 @@
+nav{
+    background-color: darkblue;
+    color: white;
+}
+
+nav .row .col-3 div{
+    text-transform: uppercase;
+
+}
+
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+}
