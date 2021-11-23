@@ -3,7 +3,7 @@ nav{
     color: white;
 }
 
-nav .row .col-3 div{
+nav .row .col-4 div{
     text-transform: uppercase;
 
 }
@@ -12,3 +12,47 @@ nav .row .col-3 div{
     color: white;
     text-transform: uppercase;
 }
+
+.uno{
+    margin-top:0px;
+    background-color: rgb(30, 163, 30);
+    height: 350px;
+}
+
+
+.due{
+    width:70%;
+    margin:0 auto;
+}
+.nav-sezione li {
+    color: white;
+}
+
+main .container .row .col:nth-child(1) div {
+    background-color: rgb(161, 52, 161);
+}
+
+main .container .row .col:nth-child(2) div {
+    background-color: rgb(161, 52, 161);
+}
+
+main .container .row .col:nth-child(3) div {
+    background-color: rgb(161, 52, 161);
+}
+
+main .container .row .col:nth-child(4) div {
+    background-color: rgb(161, 52, 161);
+}
+
+main .container .row .col:nth-child(5) div {
+    background-color: rgb(161, 52, 161);
+}
+
+main .container .row .col:nth-child(6) div {
+    background-color: rgb(161, 52, 161);
+}
+
+
+
+
+
