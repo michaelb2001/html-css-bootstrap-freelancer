@@ -22,7 +22,7 @@ nav .row .col-4 div{
 
 .due{
     width:70%;
-    margin:0 auto;
+    margin:40px auto ;
 }
 .nav-sezione li {
     color: white;
@@ -62,4 +62,9 @@ h3{
     background-color: rgb(30, 163, 30);
 }
 
+
+.input-group{
+    border: none
+    ;
+}
 
