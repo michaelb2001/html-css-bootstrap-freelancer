@@ -1,9 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x:hidden
+}
+
 nav{
     background-color: darkblue;
     color: white;
 }
 
-nav .row .col-4 div{
+nav .row .col div{
     text-transform: uppercase;
 
 }
@@ -63,8 +73,11 @@ h3{
 }
 
 
-.input-group{
-    border: none
-    ;
+input,textarea{
+    border: none;
+    width: 100%;
 }
 
+footer{
+    height: 250px;
+}
