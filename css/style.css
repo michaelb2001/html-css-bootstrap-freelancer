@@ -81,6 +81,16 @@ img{
     border-radius: 15px;
 }
 
+img:hover{
+    animation: curve 1s ease 0s;
+}
+
+@keyframes curve{
+    100%{
+        border-radius: 100px;
+        filter: brightness(50%);
+    }
+}
 p{
     color: white;
 }
@@ -140,3 +150,4 @@ input,textarea{
     background-color: rgb(28, 129, 28);
     color: white;
 }
+
