@@ -125,7 +125,7 @@ h4{
 }
 
 p>span{
-    color: rgb(144, 146, 144);
+    color: rgb(28, 129, 28);
 }
 
 .footer-bottom{
@@ -152,7 +152,8 @@ input,textarea{
 }
 
 
-a{
-    font-size:1.2rem
+.mt-3 a{
+    font-size:2rem
 }
+
 
