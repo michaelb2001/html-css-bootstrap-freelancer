@@ -1,83 +1,142 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
-html{
-    overflow-x:hidden
-}
-
-nav{
+.navbar{
     background-color: darkblue;
     color: white;
 }
 
-nav .row .col div{
-    text-transform: uppercase;
-
-}
-
-.nav-link{
+.navbar-brand,.nav-link{
     color: white;
     text-transform: uppercase;
 }
 
-.uno{
-    margin-top:0px;
-    background-color: rgb(30, 163, 30);
-    height: 350px;
-}
 
-
-.due{
-    width:70%;
-    margin:40px auto ;
-}
-.nav-sezione li {
+.navbar-toggler-icon{
     color: white;
 }
 
-main .container .row .col:nth-child(1) div {
-    background-color: rgb(161, 52, 161);
-}
-
-main .container .row .col:nth-child(2) div {
-    background-color: rgb(161, 52, 161);
-}
-
-main .container .row .col:nth-child(3) div {
-    background-color: rgb(161, 52, 161);
-}
-
-main .container .row .col:nth-child(4) div {
-    background-color: rgb(161, 52, 161);
-}
-
-main .container .row .col:nth-child(5) div {
-    background-color: rgb(161, 52, 161);
-}
-
-main .container .row .col:nth-child(6) div {
-    background-color: rgb(161, 52, 161);
-}
-
-h3{
+.icona-menu{
     color: white;
-    font-size: 1.5rem;
-    text-transform: uppercase
 }
 
-.tre{
-    background-color: rgb(30, 163, 30);
+section{
+    padding:40px;
+}
+.uno,.tre{
+    background-color: rgb(28, 129, 28);
 }
 
+.uno .bi-star-fill,
+.tre .bi-star-fill{
+    color: white;
+    padding: 5px;
+}
+
+.uno .line,
+.tre .line{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li {
+    margin: 0px 5px;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.uno h2,.tre h2{
+    color: white;
+}
+.colored-white{
+    color: white;
+}
+
+.due h2,.quattro h2{
+    color: black;
+}
+
+.due .bi-star-fill,
+.quattro .bi-star-fill{
+    color: black;
+    padding: 5px;
+}
+
+.due .line,
+.quattro .line{
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+p{
+    color: white;
+}
+
+.download{
+    cursor: pointer;
+}
+
+
+.bi-download{
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    width: 150px;
+}
+.bi-download span{
+    padding:0 3px;
+}
+
+
+.footer-top{
+    background-color: rgb(33, 33, 141);
+}
+h4{
+    color: white;
+}
+
+.footer-top .bi{
+    color: white;
+    padding:10px;
+
+}
+
+p>span{
+    color: rgb(144, 146, 144);
+}
+
+.footer-bottom{
+    background-color: rgb(26, 20, 66);
+    color: white;
+}
+
+
+.nav-link:hover{
+    text-decoration:underline overline;
+    color: dimgrey;
+}
 
 input,textarea{
-    border: none;
-    width: 100%;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    border-bottom: 2px solid black;
 }
 
-footer{
-    height: 250px;
+.btn{
+    background-color: rgb(28, 129, 28);
+    color: white;
 }
