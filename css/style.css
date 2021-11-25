@@ -1,19 +1,15 @@
-.navbar{
+.bg_navbar{
     background-color: #3a546d;
-    color: white;
+    color: rgba(255,255,255,1);
 }
 
-.navbar-brand,.nav-link{
-    color: white;
+.nav-link,.navbar-brand{
+    color: white!important;
     text-transform: uppercase;
 }
 
 
 .navbar-toggler-icon{
-    color: white;
-}
-
-.icona-menu{
     color: white;
 }
 
@@ -129,7 +125,7 @@ p>span{
 }
 
 .footer-bottom{
-    background-color: rgb(26, 20, 66);
+    background-color: #3a546d;
     color: white;
 }
 
