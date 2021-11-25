@@ -1,5 +1,5 @@
 .navbar{
-    background-color: darkblue;
+    background-color: #3a546d;
     color: white;
 }
 
@@ -21,7 +21,7 @@ section{
     padding:40px;
 }
 .uno,.tre{
-    background-color: rgb(28, 129, 28);
+    background-color: #1abc9c;
 }
 
 .uno .bi-star-fill,
@@ -125,7 +125,7 @@ h4{
 }
 
 p>span{
-    color: rgb(28, 129, 28);
+    color: #1abc9c;
 }
 
 .footer-bottom{
@@ -147,7 +147,7 @@ input,textarea{
 }
 
 .btn{
-    background-color: rgb(28, 129, 28);
+    background-color: #1abc9c;
     color: white;
 }
 
